@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <meta charset=”utf8″ />
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      background: url('https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/12792288_511524755700230_7673984782634229842_o.jpg?oh=22bba7f21f476cf2dfb81c876b117d91&oe=59220273');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      color: green;
+      margin: 60px;
+      display: inline;
+      font-family: 'Roboto', sans-serif;
+    }
+    img {
+      width: 400px;
+      margin: 40px 0px 0px 80px;
+      border: 2px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      text-align: center;
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      font-family:  sans-serif;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      font-family:  sans-serif;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12111926_511511299034909_4949807135161294107_n.jpg?oh=a9ab342cb89853a7d641983d7410d660&oe=58D650C2">
+    <h1>Perros Verdes</h1>
+    <ul>
+      <li><a href="#">Quiénes somos</a></li>
+      <li><a href="#">Posts</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Simplificando el lenguaje, simplificando el pensamiento</h2>
+    <p>Para mí una de las cosas que hace que un libro sea grande es su capacidad para decirte diferentes cosas con cada releída, 1984 es uno de esos libros. Es una obra que inspira un poquito de miedo por las posibles comparaciones con las sociedades contemporáneas , nos damos cuenta de que en muchas cuestiones Orwell le atinó, aunque de manera exagerada, a lo que sería el futuro, pero también hay algunas cosas en las que se queda corto.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>El género y la magia</h2>
+    <p>Últimamente algunas personas han agarrado la moda de ser extremadamente críticas en lo referente al género y los derechos de la mujer. Lógicamente creo en los derechos de la mujer, y en el respeto y la igualdad de oportunidades (Sería bastante triste si no). Sin embargo las mujeres más sobresalientes en las que puedo pensar no se pasaron la vida tachando cualquier actitud , incluso las más inocentes, de machistas y culpando todos sus fracasos al patriarcado. Estoy completamente consciente de que existe el machismo e incluso he llegado a vivirlo en mi día a día, no estoy tratando de negar este hecho. Pero ¿Vale la pena buscarlo y denunciarlo en todos los aspectos de la vida?</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>El poder de no poder </h2>
+    <p>Hoy corrí 1.5 millas. Eso no es nada para mis amigos de facebook que suben fotos de sus maratones, medios maratones y demás cosas crossfiteras. Eso no sería nada para mí de no ser porque hace una semana no podía correr en absoluto. En julio del año pasado me rompí una pierna jugando fútbol soccer. “Fractura de tibia y peroné” fue el diagnóstico oficial, el no oficial fue “tienes una pierna muy pero muy rota”. Después de semanas y semanas de drogas contra el dolor que creaban conversaciones sacadas de Memento y 50 first dates, siguieron un par de meses de bota mágica. Ah, porque eso del yeso a no se usa en estos casos. Y después de eso llegó la recuperación.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
